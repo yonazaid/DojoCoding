@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#gray{
+  background-color:gray;
+  margin: auto;
+  width: 650px;
+  height:500px
+}
+ #green{
+  background-color:green;
+  position: relative;
+  top: 15px;
+  margin: 15px 15px 30px 15px;
+  height: 120px
+}
+#blue{
+  background-color:blue;
+  width: 150px;
+  height: 250px;
+  margin: 0px 0px 15px 15px;
+}
+#red{
+  background-color:red;
+  width: 448px;
+  height: 340px;
+  margin:0px 0px 15px 15px;
+}
+#blue,#red{
+  display:inline-block;
+  vertical-align: top;
+}
+.yellow{
+  background-color:yellow;
+  width:120px;
+  height: 120px;
+  margin: 20px 0px 5px 10px;
+}
+.yellow{
+  display: inline-block;
+}
+#purple{
+  background-color:purple;
+  width: 392px;
+  height: 100px;
+  margin: 15px;
+
+}
+
+
+
+<p>Git is a version contro sytem; you can think of
+ it as a series of snapshots(commits) of your
+code base.with the creation of each snapshot you built out a whole
+ a whole application,seeing the growth of a full app.
+During this time you can make branches to experiment and come back
+and come back to previous snapshots you took or merge those experiments into the
+the your app.</p>
